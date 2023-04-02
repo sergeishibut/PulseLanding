@@ -1,0 +1,46 @@
+@media (max-width: 992px) {
+}
+
+@media (max-width: 767px) {
+  .promo__wrapper {
+    align-items: center;
+  }
+  .header__logo {
+    margin: 0 10px 0 10px;
+    max-width: 174px;
+  }
+  .header__official {
+    margin: 0 10px 0 10px;
+  }
+  .header {
+    justify-content: space-around;
+  }
+  .header__phone {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+
+  .button {
+    margin-right: 10px;
+  }
+  .advantages__descr {
+    padding: 0 11px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header__logo {
+    margin: 0 10px 0 10px;
+    max-width: 174px;
+  }
+  .header__official {
+    margin: 0 10px 0 10px;
+  }
+  .header__phone {
+    margin: 0 15px 0 10px;
+    font-size: 13px;
+  }
+  .button {
+    margin-right: 10px;
+  }
+}
