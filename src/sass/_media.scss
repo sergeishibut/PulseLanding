@@ -37,6 +37,18 @@
   .feed-form {
     margin: 70px auto;
   }
+  .carousel__inner ul {
+    display: none;
+  }
+  
+  .carousel__inner {
+    width: 100%;
+  }
+
+  .catalog__tab {
+    margin-top: 10px;
+  }
+  
 }
 
 @media (max-width: 575px) {
@@ -53,5 +65,12 @@
   }
   .button {
     margin-right: 10px;
+  }
+
+  .carousel__inner {
+    width: 100%;
+  }
+  .catalog__tab {
+    margin-top: 10px;
   }
 }

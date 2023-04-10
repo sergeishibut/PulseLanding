@@ -1,0 +1,45 @@
+.review__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review__item {
+    display: flex;
+    margin-top: 70px;
+    
+}
+
+.review__subtitle {
+    padding-bottom: 10px;
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.review__grey {
+    padding-bottom: 10px;
+    color: #646464;
+    font-size: 14px;
+    font-weight: 300;
+}
+.review__img {
+    height: 169px;
+    width: 169px;
+    margin-right: 62px;
+}
+
+.review__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.review__descr {
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
