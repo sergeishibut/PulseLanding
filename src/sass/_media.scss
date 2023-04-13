@@ -1,4 +1,19 @@
 @media (max-width: 992px) {
+  .footer__info {
+    width: 30%;
+    height: 30%;
+    padding: 18px 68px 60px 68px;
+  }
+  .footer__addr {
+    font-size: 10px;
+  }
+  .footer__phone {
+    font-size: 14px;
+  }
+  .footer__social-item {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -48,6 +63,10 @@
   .catalog__tab {
     margin-top: 10px;
   }
+
+  .footer__info {
+    display: none;
+  }
   
 }
 
@@ -72,5 +91,8 @@
   }
   .catalog__tab {
     margin-top: 10px;
+  }
+  .footer__info {
+    display: none;
   }
 }

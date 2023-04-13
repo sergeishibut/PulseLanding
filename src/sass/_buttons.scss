@@ -8,6 +8,10 @@
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 3px 3px 3px $main-color;
+  }
 
   a {
     color: #ffffff;
